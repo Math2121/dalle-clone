@@ -5,6 +5,7 @@ export function getRandomPrompt(prompt: string):string {
 
     const randomPrompt = surpriseMePrompts[randomIndex]
     if (randomPrompt === prompt) { return getRandomPrompt(prompt) }
+    
     return randomPrompt
 
 }
